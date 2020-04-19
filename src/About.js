@@ -4,7 +4,9 @@ import './App.css';
 class About extends Component {
     render() {
         return (
-            <div> abt </div>
+            <div> 
+                <img src="./images/steven.jpeg" />
+            </div>
         );
     }
 }

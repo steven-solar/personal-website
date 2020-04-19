@@ -9,6 +9,7 @@ import Home from './Home.js';
 import About from './About.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
+import Resume from './Resume.js';
 
 class App extends Component {
   render() {
@@ -43,6 +44,7 @@ class App extends Component {
             <Route path='/about' component={About} />
             <Route path='/skills' component={Skills} />
             <Route path='/projects' component={Projects} />
+            <Route path='/resume' component={Resume} />
         </Router>
       </body>
       </html>
