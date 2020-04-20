@@ -23,6 +23,14 @@
   text-decoration: none !important;
 }
 
+.skill-list {
+  list-style: none;
+}
+
+.skills-container {
+  text-align: center;
+}
+
 .skill-item {
   display: inline;
   background-color: #eee;
@@ -31,19 +39,21 @@
   margin-right: .25rem;
   padding-left: .55rem;
   padding-right: .55rem;
-  margin-bottom: .5rem;
-  width: fit-content;
   color: #4a4a4a;
   font-size: .75rem;
-  height: 1.55em;
   justify-content: center;
   box-shadow: 0 1px 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
 }
 
-.skill-list {
-  list-style: none;
+.skill-category {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: medium;
+  font-family: "Avenir Next";
 }
 
-.skills-container {
-  align-items: center;
+.logos {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
 }
