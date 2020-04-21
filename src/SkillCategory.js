@@ -10,7 +10,9 @@ class SkillCategory extends Component {
         return (
             <div>
                 <div className="skill-category"> {this.props.title} </div>
-                    {items}
+                    <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
+                        {items}
+                    </div>
             </div>
         );
     }
