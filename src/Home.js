@@ -12,7 +12,7 @@ class Home extends Component {
         return (
             <div className="text-center"> 
                 <div className="name col-md-auto"> Steven&nbsp;Solar </div>
-                <div className="descrip col-md-auto"> &lt;developer, engineer, enthusiast&#47;&gt; </div>
+                <div className="descrip col-md-auto"> &lt;developer, engineer, enthusiast &#47;&gt; </div>
                 <div className="icons">
                     <ul className="icon-list">
                         <li className="logos">
