@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
 import ExpBox from './ExpBox.js';
-import {
-    Route, 
-    Link, 
-    BrowserRouter as Router
-  } from 'react-router-dom';
+import '../App.css';
 
 class Home extends Component {
     render() {

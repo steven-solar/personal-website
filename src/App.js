@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
 import {
   Route, 
   Link, 
   BrowserRouter as Router
 } from 'react-router-dom';
-import Home from './Home.js';
-import About from './About.js';
-import Skills from './Skills.js';
-import Projects from './Projects.js';
-import Resume from './Resume.js';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import Skills from './components/Skills.js';
+import Projects from './components/Projects.js';
+import Resume from './components/Resume.js';
 
 class App extends Component {
   render() {
