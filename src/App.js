@@ -24,7 +24,7 @@ class App extends Component {
         </head>
         <body>
           <Router>
-          <nav className="navbar navbar-expand-md navbar-dark bg-primary mb-3" >
+          <nav className="navbar navbar-expand-md navbar-dark bg-primary mb-3">
             <div className="container-fluid">
                 <a className="navbar-brand mr-3">Steven Solar</a>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">

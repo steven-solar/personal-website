@@ -5,7 +5,7 @@ class ExpBox extends Component {
     render() {
         return (
             <div className="exp-box">
-                <a href={this.props.link} target="_blank">
+                <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                     <img src={this.props.imglink} height="125" width="125" alt={this.props.company.concat(" logo")} />
                         <div className="content">
                             <div className="text">

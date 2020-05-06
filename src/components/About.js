@@ -6,7 +6,6 @@ class About extends Component {
         return (
             <div className="text-center">
                 <div className="abt-title"> About Me </div> 
-                <img height="200" width="200" src="https://media-exp1.licdn.com/dms/image/C4D03AQEdqi1ChpXrpg/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=7ETBq--krlM3MJwrXhqEIpWXXDxZgPpZFQetn9yEaHg" />
                 <div className="abt-content">
                     <p> Hi! I'm Steven Solar, a Computer Science and Biomedical Engineering major at Johns Hopkins University graduating in May 2022. 
                         I love learning about all things technology, and will be interning at Google this upcoming summer.
@@ -16,31 +15,24 @@ class About extends Component {
                        But mainly I'm a passionate student, and want to continue learning and exploring new ideas for the rest of my life!
                     </p>
                     <p>
-                        I was born and raised in New Rochelle, NY, where I've lived for all my life. 
-                        My love for learning began with a set of "kiddy" encyclopedias that I read cover-to-cover more than once. 
-                        My mind was boggled by the concept of space and the universe, and I wanted more than anything to be an astronaut. 
-                        My younger brothers and I would turn old boxes into spaceships and went on inter-galactic ventures through the house.
-                        I loved learning how the world works, and still do!
+                        I was born and raised in New Rochelle, NY. 
                     </p>
-                    <div> pic of my house, or me as a kid</div>
                     <p>
-                        In high school, I was first exposed to computer science in a class and immediately fell in love!
-                        I spent my free time making old-style Snake and Pong Java Applets to play on my computer, and solving coding puzzles. 
-                        Outside of this, I acted as a Research Assistant at Memorial Sloan, working on developed second-generation armored CAR T cells.
+                        In high school, I was first exposed to computer science in class.
+                        I spent my free time making Snake and Pong Java Applets to play on my computer, and solving coding puzzles. 
                         I was also captain of our club frisbee team, and still love to play. 
-                        Since coming to college, I've continued to explore my interests in the both the biomedical realm and computer science.
+                        Since coming to college, I've continued to explore my interests in the both medicine and computer science.
                     </p>
-                    <div> physics gang pic </div>
-                    <div> frisbee pic </div>
-                    <div> snake/pong video? </div>
+                    <img src="https://i.ytimg.com/vi/ts7J1I1YyKo/maxresdefault.jpg" alt="Our team!" width="500" />
+                    <p> Here's our team after the state tournament! </p>
                     <p>
                         My freshman year, I joined Treyetech, where we've developed a medical device to simplify DMEK, an advanced corneal procedure. 
-                        As Diector of Operations, I oversee research, business development, IP, device development, hiring new members, and strategy. 
-                        I've pitched the company at business plan competitions, and helped to raise over $100,000 in funding!
-                        I've also authored a paper published in Cornea, and presented at the AAO annual conference, and co-authored a paper published in ASME.
+                        As Diector of Operations, I oversee research, IP, device development, hiring new members, and strategy. 
+                        I've pitched at business plan competitions, helping raise over $100,000 in funding!
+                        I've also authored a paper published in Cornea, and presented at the AAO annual conference, and co-authored a paper in ASME.
                         I love our team, and enjoy the fun social events we do together. 
                     </p>
-                    <div> Treyetech pic from competition </div>
+                    <a href="https://journals.lww.com/corneajrnl/Abstract/publishahead/Preloading_Trifolded_Grafts_for_Descemet_Membrane.96202.aspx"> Here's one of my papers! </a>
                     <p>
                         That spring I interned at Semester.ly, learning full-stack development and a slew of new languages and libraries. 
                         In my time, I worked to improve the website's advanced search feature, alter how we displayed course information, and update aspects of the UI.
@@ -50,18 +42,18 @@ class About extends Component {
                         Me and my two teammates developed an algorithm to predict which federal grant applications would receive funding, leveraging machine learning and NLP techniques.
                         Our solution worked at 95% accuracy (and 95% F1 score), and we went on to present it to company leadership and government executives at the ACF.
                         All the interns sat together at one big table in the office, which gave us lots of time to get to know each other (and learn how to brew kombucha!)
-                        I loved the friendly energy of the office, and the coffee machine (from which I drank many a hot chocolate). 
                     </p>
-                    <div> Sokat pic </div>
+                    <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=455x10000:format=jpg/path/s1e1ceb42d680f129/image/i0f3db62b9e14cdff/version/1560434222/image.jpg" alt="Our team!" />
+                    <p> Here's our team team of interns! </p>
                     <p>
-                        Outside of class, I love to read, mostly science-fiction. 
+                        I love to read, mostly science-fiction. 
                         Some of my all-time favorites are I, Robot, the Foundation, and the Three Body Problem! 
                         I'm currently reading the Lord of the Rings, and am very open to any book recommendations.
                     </p>
+                    <a href="https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032"> <img height="350" src="https://images-na.ssl-images-amazon.com/images/I/919XM42JQlL.jpg" /> </a>
                     <p>
-                        I'm also super involved in my fraternity, and enjoy working in teams to plan awesome philanthropy and social events.
+                        I'm also super involved in my fraternity, Phi Kappa Psi, and enjoy working in teams to plan awesome philanthropy and social events.
                     </p>
-                    <div> PC pic or maybe haunted house </div>
                     <p>
                         If you have any book recommendations, or want to work on a project together, feel free to reach out!
                     </p>
